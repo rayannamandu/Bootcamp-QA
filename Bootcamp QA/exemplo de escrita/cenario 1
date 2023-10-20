@@ -1,0 +1,12 @@
+Cenário: Autenticação válida
+
+Funcionalidade: Login do saucedemo
+Como usuário
+Quero logar no site
+Para fazer compras
+
+Cenário: Autenticação válida
+Dado que eu acesse a página inicial do saucedemo
+Quando eu digitar o usuário "standard_user"
+E a senha "secret_sauce"
+Então deve ser exibida a palavra "Products"

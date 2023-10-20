@@ -1,0 +1,6 @@
+Cenário: Usuário inexistente
+
+Dado que eu acesse a página inicial do saucedemo
+Quando eu digitar o usuário "user_standard"
+E a senha "secret_sauce"
+Então deve ser exibida a mensagem de erro "Epic sadface: Username and password do not match any user in this service"

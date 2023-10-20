@@ -1,0 +1,6 @@
+Cenário: Senha inválida
+
+Dado que eu acesse a página inicial do saucedemo
+Quando eu digitar o usuário "standard_user"
+E a senha 123456
+Então deve ser exibida a mensagem de erro "Epic sadface: Username and password do not match any user in this service"
